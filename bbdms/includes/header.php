@@ -3,7 +3,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
-            <a class="navbar-brand" href="index.php"><B>FRIENDS 2 SUPPORT</B></a>
+            <a class="navbar-brand" href="index.php"><B>BLOOD SUPPORTER</B></a>
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -17,7 +17,7 @@
                     </li>
                  
                      <li class="nav-item">
-                        <a class="nav-link" href="search-donor.php">SEARCH BLOOD</a>
+                        <a class="nav-link" href="search-donor.php">SEARCH DONOR</a>
                     </li>
                       <li class="nav-item">
                         <a class="nav-link" href="contact.php">CONTACT US</a>

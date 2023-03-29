@@ -9,7 +9,7 @@
                    
                         <a class="nav-link" href="become-donar.php">BECOME A DONOR</a>
                     
-                        <a class="nav-link" href="search-donor.php">SEARCH BLOOD</a>
+                        <a class="nav-link" href="search-donor.php">SEARCH DONOR</a>
                 
                         <a class="nav-link" href="contact.php">CONTACT US</a>
                     
