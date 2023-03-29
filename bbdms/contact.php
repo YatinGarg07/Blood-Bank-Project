@@ -57,7 +57,8 @@ $error="Something went wrong. Please try again";
         }
     }
     </style>
-    <style>
+ 
+ <style>
     .errorWrap {
     padding: 10px;
     margin: 0 0 20px 0;
@@ -99,38 +100,38 @@ $error="Something went wrong. Please try again";
         <div class="row">
             <!-- Map Column -->
               <div class="col-lg-8 mb-4">
-                <h3>Send us a Message</h3>
+                <h3>Leave Your Query</h3>
                 <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
                 <form name="sentMessage"  method="post">
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Full Name:</label>
-                            <input type="text" class="form-control" id="name" name="fullname" required data-validation-required-message="Please enter your name.">
+                            <div><label>Full Name:</label></b><span style="color:red">*</span></div>
+                            <input type="text" class="form-control" id="name" name="fullname" pattern="[a-zA-Z]{1,}" required data-validation-required-message="Please enter your name.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Phone Number:</label>
-                            <input type="tel" class="form-control" id="phone" name="contactno"  required data-validation-required-message="Please enter your phone number.">
+                        <div><label>Moble Number:</label></b><span style="color:red">*</span></div>
+                            <input type="tel" class="form-control" id="phone" name="contactno"  pattern="[1-9]{1}[0-9]{9}" required data-validation-required-message="Please enter your phone number.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Email Address:</label>
+                        <div><label>Email Address:</label></b><span style="color:red">*</span></div>
                             <input type="email" class="form-control" id="email" name="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Message:</label>
+                        <div><label>Message:</label></b><span style="color:red">*</span></div>
                             <textarea rows="10" cols="100" class="form-control" id="message" name="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" name="send"  class="btn btn-primary">Send Message</button>
+                    <button type="submit" name="send"  class="btn btn-outline-danger">Send Message</button>
                 </form>
             </div>
 
@@ -156,7 +157,7 @@ foreach($results as $result)
                     <abbr title="Phone">Phone Number</abbr>: <?php   echo htmlentities($result->ContactNo); ?>
                 </p>
                 <p>
-                    <abbr title="Email">Email Id</abbr>: <a href="mailto:gaganjot009@gmail.com"><?php   echo htmlentities($result->EmailId); ?>
+                    <abbr title="Email">Email Id</abbr>: <a href="mailto:ankurpunia28@gmail.com"><?php   echo htmlentities($result->EmailId); ?>
                     </a>
                 </p>
               <?php }} ?>
