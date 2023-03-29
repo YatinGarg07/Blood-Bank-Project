@@ -134,7 +134,7 @@ foreach($results as $result)
                         <p class="card-text"><b>Mobile No. / Email Id :</b> <?php echo htmlentities($result->MobileNumber);?> /
                         <?php if($result->EmailId=="")
                         {
-                        echo htmlentities(NA);
+                        echo htmlentities("NA");
                         } else {
 echo htmlentities($result->EmailId);
 }
