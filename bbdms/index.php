@@ -174,7 +174,7 @@ foreach($results as $result)
                 <p>A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p>
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid rounded" src="images/blood-donor (1).jpg" alt="">
+                <img class="img-fluid rounded" src="https://i.pinimg.com/564x/23/4f/a2/234fa2e01a34f6bb95af51457e84b2ba.jpg" alt="">
             </div>
         </div>
         <!-- /.row -->
