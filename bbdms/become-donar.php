@@ -106,12 +106,12 @@ $error="Something went wrong. Please try again";
         <form name="donar" method="post">
 <div class="row">
 <div class="col-lg-4 mb-4">
-<div class="font-italic"><b>Full Name</b><span style="color:red">*</span></div>
-<div><input type="text" name="fullname" class="form-control" required></div>
+<div class="font-italic" ><b>Full Name</b><span style="color:red">*</span></div>
+<div><input type="text" name="fullname" class="form-control"  pattern="[a-zA-Z]{1,}"required></div>
 </div>
 <div class="col-lg-4 mb-4">
 <div class="font-italic"><b>Mobile Number</b><span style="color:red">*</span></div>
-<div><input type="text" name="mobileno" class="form-control" required></div>
+<div><input type="text" name="mobileno" class="form-control" pattern="[0-9]{1,}" required></div>
 </div>
 <div class="col-lg-4 mb-4">
 <div class="font-italic"><b>Email Id</b></div>
@@ -122,7 +122,7 @@ $error="Something went wrong. Please try again";
 <div class="row">
 <div class="col-lg-4 mb-4">
 <div class="font-italic"><b>Age</b><span style="color:red">*</span></div>
-<div><input type="text" name="age" class="form-control" required></div>
+<div><input type="text" name="age" class="form-control" pattern="[0-9]{1,}" required></div>
 </div>
 
 

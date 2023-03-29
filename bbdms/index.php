@@ -44,7 +44,7 @@ include('includes/config.php');
     <!-- Page Content -->
     <div class="container">
 
-        <h1 class="my-4"><B>FRIENDS 2 SUPPORT</B></h1>
+        <h1 class="my-4"><B>BlOOD SUPPORT</B></h1>
 
         <!-- Marketing Icons Section -->
         <div class="row">
@@ -121,7 +121,7 @@ include those:
         <!-- /.row -->
 
         <!-- Portfolio Section -->
-        <h2>Some of the Donar</h2>
+        <h2>Recent Donors</h2>
 
         <div class="row">
                    <?php 
@@ -138,7 +138,7 @@ foreach($results as $result)
 { ?>
 
             <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="card h-100">
+                <div class="card h-50">
                     <a href="#"><img class="card-img-top img-fluid" src="images/blood-donor.jpg" alt="" ></a>
                     <div class="card-block">
                         <h4 class="card-title"><a href="#"><?php echo htmlentities($result->FullName);?></a></h4>
