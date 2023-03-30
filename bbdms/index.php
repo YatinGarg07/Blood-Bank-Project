@@ -37,7 +37,7 @@ include('includes/config.php');
 
 </head>
 
-<body>
+<body class="m-0">
 
     <!-- Navigation -->
 <?php include('includes/header.php');?>
