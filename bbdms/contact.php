@@ -45,6 +45,9 @@ $error="Something went wrong. Please try again";
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
 
+    <!-- tailwind css, added for footer -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
     <!-- Temporary navbar container fix -->
     <style>
     .navbar-toggler {
