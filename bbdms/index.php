@@ -128,7 +128,7 @@ include those:
         <div class="row">
                    <?php 
 $status=1;
-$sql = "SELECT * from tblblooddonars where status=:status order by rand() limit 6";
+$sql = "SELECT * from tblblooddonars where status=:status order by rand() limit 3";
 $query = $dbh -> prepare($sql);
 $query->bindParam(':status',$status,PDO::PARAM_STR);
 $query->execute();
@@ -176,23 +176,25 @@ foreach($results as $result)
                 <p>A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p>
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid rounded" src="https://i.pinimg.com/564x/23/4f/a2/234fa2e01a34f6bb95af51457e84b2ba.jpg" alt="">
+                <img class="img-fluid rounded" src="https://i.pinimg.com/564x/23/4f/a2/234fa2e01a34f6bb95af51457e84b2ba.jpg" alt=""><br>
             </div>
+            
         </div>
         <!-- /.row -->
 
         <hr>
 
         <!-- Call to Action Section -->
-        <div class="row mb-4">
-            <div class="col-md-8">
-            <h4>UNIVERSAL DONORS AND RECIPIENTS</h4>
+        <br>
+        <div class="row mb-5">
+            <div class="col-md-9">
+            <h5>UNIVERSAL DONORS AND RECIPIENTS</h5>
                 <p>
 The most common blood type is O, followed by type A.
 
 Type O individuals are often called "universal donors" since their blood can be transfused into persons with any blood type. Those with type AB blood are called "universal recipients" because they can receive blood of any type.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4"><br>
                 <a class="btn btn-lg btn-secondary btn-block" href="become-donar.php">Become a Donar</a>
             </div>
         </div>
