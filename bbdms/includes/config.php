@@ -11,6 +11,10 @@ $dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(P
 }
 catch (PDOException $e)
 {
-exit("Error: " . $e->getMessage());
+<<<<<<< HEAD
+exit("Errors : " . $e->getMessage());
+=======
+exit("Errors: " . $e->getMessage());
+>>>>>>> main
 }
 ?>
