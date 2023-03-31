@@ -128,7 +128,7 @@ function isNumberKey(evt)
 									<div class="panel-body">
 <form method="post" class="form-horizontal" enctype="multipart/form-data">
 <div class="form-group">
-<label class="col-sm-2 control-label">Full Name<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label" pattern="[a-zA-Z]{1,}" >Full Name<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <input type="text" name="fullname" class="form-control" required>
 </div>
