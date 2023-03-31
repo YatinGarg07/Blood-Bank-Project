@@ -14,6 +14,9 @@ include('includes/config.php');
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- tailwind css, added for footer -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
     <title>BloodBank & Donor Management System | Become A Donar</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -75,7 +78,7 @@ include('includes/config.php');
 
 
 
-<div class="col-lg-4 mb-4">
+<div class="col-lg-4 mb-4 d-flex" >
 <div class="font-italic"><b>Blood Group</b><span style="color:red">*</span> </div>
 <div><select name="bloodgroup" class="form-control" required>
 <?php $sql = "SELECT * from  tblbloodgroup ";
@@ -132,10 +135,12 @@ foreach($results as $result)
                     <div class="card-block">
                         <h4 class="card-title"><a href="#"><?php echo htmlentities($result->FullName);?></a></h4>
                         <p class="card-text"><b>Mobile No. / Email Id :</b> <?php echo htmlentities($result->MobileNumber);?> /
-                        <?php if($result->EmailId=="")
+                        <?php 
+                        if($result->EmailId=="")
                         {
                         echo htmlentities("NA");
-                        } else {
+                        } 
+else {
 echo htmlentities($result->EmailId);
 }
 ?>
@@ -147,16 +152,17 @@ echo htmlentities($result->EmailId);
 <?php if($result->Address=="")
 {
 echo htmlentities('NA');
-} else {
+} 
+else {
 echo htmlentities($result->Address);
 }
 ?></p>
      <p class="card-text"><b>Message :</b> <?php echo htmlentities($result->Message);?></p>
-
+     
                     </div>
                 </div>
             </div>
-
+            
             <?php }}
 else
 {
@@ -164,24 +170,19 @@ echo htmlentities("No Record Found");
 
 }
 
-
             } ?>
-          
- 
-
-
-
+             
         </div>
-
-
+       
+       
+    <!-- Bootstrap core JavaScript -->
 
 </div>
-  <?php include('includes/footer.php');?>
-    <!-- Bootstrap core JavaScript -->
+ 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
+    <?php include('includes/footer.php');?>
 </body>
 
 </html>
