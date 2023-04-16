@@ -7,13 +7,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('images/banner1.jpg')">
+                <div class="carousel-item active" style="background-image: url('https://i.pinimg.com/564x/34/02/bd/3402bd4d588a88da482dcec615d46a6d.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                        
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/banner2.png')">
+                <div class="carousel-item" style="background-image: url('https://static.vecteezy.com/system/resources/previews/007/011/575/original/world-blood-donor-day-poster-donor-blood-concept-illustration-background-for-world-blood-donor-day-free-vector.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
