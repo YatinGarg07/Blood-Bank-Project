@@ -60,8 +60,8 @@ $error="Something went wrong. Please try again";
         }
     }
     </style>
- 
- <style>
+    
+    <style>
     .errorWrap {
     padding: 10px;
     margin: 0 0 20px 0;
