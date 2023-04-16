@@ -182,6 +182,7 @@ echo htmlentities("No Record Found");
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
     <?php include('includes/footer.php');?>
 </body>
 
