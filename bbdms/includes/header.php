@@ -1,5 +1,5 @@
 <nav class="navbar  navbar-toggleable-md navbar-inverse bg-white">
-<a href="../index.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaaTLt1sbO1L2iJulJwBXWfEWXp6rGqT-c6g&usqp=CAU" class="h-9 mr-0" alt="blood Logo">
+<a href="index.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaaTLt1sbO1L2iJulJwBXWfEWXp6rGqT-c6g&usqp=CAU" class="h-9 mr-0" alt="blood Logo">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">   
         <span class="navbar-toggler-icon"></span>
