@@ -123,7 +123,8 @@ include those:
         <!-- /.row -->
 
         <!-- Portfolio Section -->
-        <h2>Recent Donors</h2>
+        <h2><strong>Recent Donors</strong></h2>
+        <br><br>
 
         <div class="row">
                    <?php 
@@ -139,7 +140,7 @@ if($query->rowCount() > 0)
 foreach($results as $result)
 { ?>
 
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-4 col-sm-5 portfolio-item">
                 <div class="card h-50">
                     <a href="#"><img class="card-img-top img-fluid" src="images/blood-donor.jpg" alt="" ></a>
                     <div class="card-block">
@@ -163,10 +164,11 @@ foreach($results as $result)
         <!-- Features Section -->
         <div class="row">
             <div class="col-lg-6">
-                <h2>BLOOD GROUPS</h2>
-          <p>  blood group of any human being will mainly fall in any one of the following groups.</p>
+                <h2><strong> BLOOD GROUPS</strong></h2>
+            <br>
+                <p>  blood group of any human being will mainly fall in any one of the following groups.</p>
                 <ul>
-                
+            
                 
 <li>A positive or A negative</li>
 <li>B positive or B negative</li>
@@ -175,7 +177,7 @@ foreach($results as $result)
                 </ul>
                 <p>A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-5">
                 <img class="img-fluid rounded" src="https://i.pinimg.com/564x/23/4f/a2/234fa2e01a34f6bb95af51457e84b2ba.jpg" alt=""><br>
             </div>
             
@@ -188,14 +190,14 @@ foreach($results as $result)
         <br>
         <div class="row mb-5">
             <div class="col-md-9">
-            <h5>UNIVERSAL DONORS AND RECIPIENTS</h5>
+            <h5> <strong> UNIVERSAL DONORS AND RECIPIENTS</strong></h5>
                 <p>
 The most common blood type is O, followed by type A.
 
 Type O individuals are often called "universal donors" since their blood can be transfused into persons with any blood type. Those with type AB blood are called "universal recipients" because they can receive blood of any type.</p>
             </div>
             <div class="col-md-4"><br>
-                <a class="btn btn-lg btn-secondary btn-block" href="become-donar.php">Become a Donar</a>
+                <a type="button" class="btn btn-outline-danger" href="become-donar.php">Become a Donor</a>
             </div>
         </div>
 
