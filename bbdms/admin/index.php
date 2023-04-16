@@ -47,13 +47,13 @@ echo "<script type='text/javascript'> document.location = 'change-password.php';
 
 <body>
 	
-	<div class="login-page bk-img" style="background-image: url(img/banner.png);">
-		<div class="form-content">
-			<div class="container">
+	<div class="login-page bk-img" style="background-image: url(img/banner1.jpg); z-index:1">
+		<div class="form-content" >
+			<div class="container" style=" opacity:10.0;z-index:2">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
-						<h1 class="text-center text-bold text-light mt-4x">BloodBank & Donor Management System Sign in</h1>
-						<div class="well row pt-2x pb-3x bk-light">
+						<h1 class="text-center text-bold text-black mt-4x">BloodBank & Donor Management System Sign in</h1>
+						<div class="well row pt-2x pb-3x background-image:.bg-secondary.bg-gradient">
 							<div class="col-md-8 col-md-offset-2">
 								<form method="post">
 

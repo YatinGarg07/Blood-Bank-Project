@@ -264,7 +264,7 @@
     width: false,
     container: false,
     hideDisabled: false,
-    showSubtext: false,
+     showSubtext: false,
     showIcon: true,
     showContent: true,
     dropupAuto: true,

@@ -3,7 +3,7 @@ session_start();
 error_reporting(0);
 include('includes/config.php');
 if(strlen($_SESSION['alogin'])==0)
-	{	
+{	
 header('location:index.php');
 }
 else{
@@ -79,7 +79,7 @@ $bg=$query->rowCount();
 												<div class="stat-panel text-center">
 												<?php 
 $sql1 ="SELECT id from tblblooddonars ";
-$query1 = $dbh -> prepare($sql1);;
+$query1 = $dbh -> prepare($sql1);
 $query1->execute();
 $results1=$query1->fetchAll(PDO::FETCH_OBJ);
 $regbd=$query1->rowCount();
