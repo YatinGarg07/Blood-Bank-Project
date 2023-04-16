@@ -21,7 +21,7 @@
 
    
 <footer class="bg-black shadow dark:bg-gray-800 " 
-style=" position:fixed;
+style=" 
         bottom: 0;
         left: 0;
         right: 0;">
