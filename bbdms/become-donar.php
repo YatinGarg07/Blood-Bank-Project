@@ -117,8 +117,8 @@ $error="Something went wrong. Please try again";
 <div><input type="text" name="mobileno" class="form-control" pattern="[1-9]{1}[0-9]{9}" required ></div>
 </div>
 <div class="col-lg-4 mb-4">
-<div class="font-italic"><b>Email Id</b></div>
-<div><input type="email" name="emailid" class="form-control"></div>
+<div class="font-italic"><b>Email Id</b><span style="color:red">*</span></div>
+<div><input type="email" name="emailid" class="form-control" required></div>
 </div>
 </div>
 
