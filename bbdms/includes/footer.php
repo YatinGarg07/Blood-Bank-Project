@@ -19,8 +19,8 @@
     </footer> -->
 
 
-   
-<footer class="bg-black shadow dark:bg-gray-800 " 
+   <hr>
+<footer class="bg-white shadow dark:bg-gray-800 " 
 style=" 
         bottom: 0;
         left: 0;
