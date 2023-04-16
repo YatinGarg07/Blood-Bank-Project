@@ -103,7 +103,7 @@ foreach($results as $result)
 
 <div class="row">
 <div class="col-lg-4 mb-4">
-<div><input type="submit" name="submit" class="btn btn-primary" value="submit" style="cursor:pointer"></div>
+<div><input type="submit" name="submit" class="btn btn-primary" value="Submit" style="cursor:pointer"></div>
 </div>
 </div>
        <!-- /.row -->
