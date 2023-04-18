@@ -165,7 +165,7 @@ function isNumberKey(evt)
 <select name="bloodgroup" class="form-control" required>
 <option value="">Select</option>
 <?php $sql = "SELECT * from  tblbloodgroup ";
-$query = $dbh -> C;
+$query = $dbh -> prepare($sql);
 $query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
 $cnt=1;
