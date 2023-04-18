@@ -197,7 +197,7 @@ foreach($results as $result)
 <textarea class="form-control" name="message" required> </textarea>
 </div>
 </div>
-
+<!--form group-->
 
 
 											<div class="form-group">
