@@ -1,14 +1,14 @@
-name: deploy
+name: Deploy
 on:
   push: 
     branches: [main]
-  workflow dispatch:
+  workflow_dispatch:
   
-  jobs: 
-    deploy:
-    name: Deploy
-    runs-on: ubuntu-latest
-    steps:
+jobs: 
+    Deploy:
+      name: Deploy
+      runs-on: ubuntu-latest
+      steps:
       - name: Checkout repository
         uses: actions/checkout@main
       - name: Sync files to hosting
