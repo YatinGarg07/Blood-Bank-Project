@@ -1,8 +1,8 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost:3307');
-define('DB_USER','root');
-define('DB_PASS','');
+define('DB_HOST','bbdms.cpfxm0zwrgsj.ap-south-1.rds.amazonaws.com:3306');
+define('DB_USER','rootuser');
+define('DB_PASS','rootuser');
 define('DB_NAME','bbdms');
 // Establish database connection.
 try
