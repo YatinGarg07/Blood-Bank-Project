@@ -2,7 +2,7 @@
 // DB credentials.
 define('DB_HOST','bbdms.cpfxm0zwrgsj.ap-south-1.rds.amazonaws.com:3306');
 define('DB_USER','rootuser');
-define('DB_PASS','rootuser');
+define('DB_PASS','useruser');
 define('DB_NAME','bbdms');
 // Establish database connection.
 try
